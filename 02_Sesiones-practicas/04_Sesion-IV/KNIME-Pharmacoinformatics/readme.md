@@ -31,7 +31,7 @@ Inactive IC50 >5 µM
 
 <img src="./media\figure1.png" style="zoom:50%;" />
 
-### 2. **Molecular filtering: ADME and lead-likeness criteria**
+### 2 and 3. **Molecular filtering: ADME and lead-likeness criteria**
 
 Not all compounds are suitable as a starting point for drug development due to their undesirable pharmacokinetic properties, which could adversely affect absorption, distribution, metabolism, and excretion (ADME) of a drug. Therefore, these compounds are usually excluded in datasets aiming to target promising drug candidates. Therefore, fewer drug-like molecules in the dataset should be eliminated.
 
@@ -45,9 +45,9 @@ The bioavailability of a compound is an important ADME property. Lipinski's rule
 
 <img src="./media\figure2.png" style="zoom:75%;" />
 
-### 3. Compound clustering
+### 4. Compound clustering
 
-Clustering can be used to identify groups of similar compounds, in order to pick a set of diverse compounds from these clusters for diverse goals like, for exmaple,  non-redundant experimental testing. The following steps show how to create these clusters based on a hierarchical clustering algorithm.
+Clustering can be used to identify groups of similar compounds, in order to pick a set of diverse compounds from these clusters for diverse goals like, for example,  non-redundant experimental testing. The following steps show how to create these clusters based on a hierarchical clustering algorithm.
 
 <img src="./media\figure3.png" style="zoom:50%;" />
 
