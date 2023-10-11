@@ -12,7 +12,7 @@ The workflow is presented using Acetylcholinesterase (AChE) as an example, inclu
 
 ### Requirements
 
-+ Knime version 4.3.1, an open source software for data analysis <b><a href="https://www.knime.com/" target="_blank">Knime website</a></b>
++ Knime version 4.7.7, an open source software for data analysis <b><a href="https://www.knime.com/" target="_blank">Knime website</a></b>
 + Our Knime workflow to capture relevant data about an indication of interest making use of different databases <a href="https://github.com/jdhurtadop2017/Chemoinformatics_analysis/raw/master/chemoinformatics.knwf">**Chemoinformatics-analysis**</a>.
 + Input files <a href="https://github.com/jdhurtadop2017/Chemoinformatics_analysis/raw/master/Input/Compounds%20with%20IC50%20%20Target%20AChE.rar">**Inputs**</a>.
 + Here you can have a complete visualization of the workflow <a href="https://workflow2app.netlify.app/" target="_blank">**Workflow Visualization**</a>.
@@ -58,19 +58,6 @@ To visualize the shared scaffolds between compounds, and thus emphasize the exte
 <img src="./media\figure4.png" style="zoom:30%;" />
 
 
-
-### 6. R-group Decomposition
-
-R-group decomposition is a special type of search that aims to find a central substructure (scaffold) and identify its substituents at certain binding positions. The query molecule consists of the scaffold and the binding sites represented by R-groups.
-
-This block of the workflow shows how to perform R-group decomposition using the RDKit community extension. Its implementation consists of several steps. 
-
-+ Calculate MCS taking all active compounds as a starting point.
-+ Perform the R-group decomposition
-+ Find how many molecules with each combination of the two selected R-groups are in the dataset.
-+ Visualize the results of the R-group decomposition.
-
-<img src="./media\figure5.png" style="zoom:50%;" />
 
 ### 4. Adapted from:
 
